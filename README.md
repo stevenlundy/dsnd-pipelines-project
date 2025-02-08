@@ -1,8 +1,4 @@
-# README Template
-
-Below is a template provided for use when building your README file for students.
-
-# Project Title
+# Fashion Forward Forecasting
 
 Project description goes here.
 
@@ -12,27 +8,50 @@ Instructions for how to get a copy of the project running on your local machine.
 
 ### Dependencies
 
-```
-Examples here
-```
+This project uses Python 3.11.2. See full list of dependencies in the `requirements.txt` file.
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+#### pyenv
 
-List out the steps
+Pyenv is a tool that allows you to manage multiple versions of Python on your machine. This project uses Python 3.11.2. To install pyenv and set the local python version, run the following commands:
 
+```bash
+# Install pyenv
+brew install pyenv
+pyenv install 3.11.2
+pyenv virtualenv 3.11.2 dsnd-pipelines-project
+# Set the local python version
+pyenv local dsnd-pipelines-project
 ```
-Give an example here
+
+#### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Install pre-commit
+
+This project uses pre-commit to ensure that code is formatted correctly before committing. To install pre-commit, run the following commands:
+
+```bash
+pip install pre-commit
+pre-commit install
 ```
 
 ## Testing
 
-Explain the steps needed to run any automated tests
+Tests are written using the `pytest` framework. To run the tests, use the following command:
+
+```bash
+pip install pytest
+pytest tests
+```
 
 ### Break Down Tests
 
-Explain what each test does and why
+TODO: Explain what each test does and why
 
 ```
 Examples here
@@ -40,7 +59,7 @@ Examples here
 
 ## Project Instructions
 
-This section should contain all the student deliverables for this project.
+TODO: This section should contain all the student deliverables for this project.
 
 ## Built With
 

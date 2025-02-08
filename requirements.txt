@@ -2,3 +2,9 @@ scikit-learn
 pandas
 spacy
 notebook
+nbqa[toolchain]
+pre-commit
+isort
+black
+matplotlib
+seaborn
