@@ -8,3 +8,4 @@ isort
 black
 matplotlib
 seaborn
+gradio
