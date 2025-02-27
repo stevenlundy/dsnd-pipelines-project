@@ -51,23 +51,26 @@ pytest tests
 
 ### Break Down Tests
 
-TODO: Explain what each test does and why
-
-```
-Examples here
-```
+There are tests for the custom transformers. The tests test basic functionality for the text transformers and the custom transformers.
 
 ## Project Instructions
 
-TODO: This section should contain all the student deliverables for this project.
+The data exploration and training is all done in the Jupyter notebook `starter/starter.ipynb`. The notebook is broken down into the following sections:
+
+1. Data Exploration
+1. Building the Pipeline
+1. Training the Pipeline
+1. Fine Tuning the Pipeline
+
+The Project is deployed on Hugging Face Spaces using a Gradio Interface. The deployment can be found [here](https://huggingface.co/spaces/stevenlundy/dsnd-pipelines-project).
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+* [Gradio](http://gradio.app) - The web framework used
+* [Hugging Face Spaces](https://huggingface.co/spaces) - The deployment platform used
+* [Seaborn](https://seaborn.pydata.org) - The visualization library used
+* [Pandas](https://pandas.pydata.org) - The data manipulation library used
+* [Scikit-learn](https://scikit-learn.org/stable/) - The machine learning library used
 
 ## License
 
